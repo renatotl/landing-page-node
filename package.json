@@ -1,7 +1,7 @@
 {
   "name": "landing-page-node",
   "version": "1.0.0",
-  "description": "Projeto Landing Page Node",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -11,17 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/renatotl/landing-page-node.git"
   },
-  "author": "Renato Tenório Lino",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/renatotl/landing-page-node/issues"
   },
   "homepage": "https://github.com/renatotl/landing-page-node#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  },
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
   }
 }
