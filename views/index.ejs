@@ -39,8 +39,8 @@
                 <h3>Desenvolvimento de Software</h3>
 
                 <ul>
-                    <% devList.forEach(item => { %>
-                        <li><%= item %></li>
+                    <% devList.forEach(item => { %><!-- chamo a lista devlist e vatto ela com o foreach e foi feito umaa funçao -->
+                        <li><%= item %></li><!-- passando o valor de cada item -->
                         <% }) %>
                 </ul>
     
@@ -59,7 +59,7 @@
     <section id="inscrever">
         <h2>Inscreva-se!</h2>
 
-        <form action="/subscription" method="POST">
+        <form action="/subscription" method="POST"><!-- form de mormulário  o action quer a rota nesse caso o subscriptio e o method post que recebe se botar get os dados aparecem na url-->
             <div>
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
@@ -84,3 +84,5 @@
     
 </body>
 </html>
+
+<!-- <%=  %>  assim que o EJS reconhece que estou passando um dado. É normal ficar vermelho a seta  -->

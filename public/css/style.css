@@ -69,7 +69,7 @@ nav {
   
   header img {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; /* centraliza a imagem*/
   }
   
   section#cursos {
