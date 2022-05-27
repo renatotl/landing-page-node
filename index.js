@@ -5,6 +5,9 @@ const app = express();//cria a const app que é a aplicação e chama todas as f
 app.set("view engine", "ejs"); //mortor engine da view é o ejs
 app.use(express.static(path.join(__dirname,"public")));//dizendo ao express a pasta que irá guardar esses arquivos
 
+
+
+//http://localhost:3000/index
 app.get('/index', (req, res) => {//chamando a rota get, dentro do servidor que tem as rotas que o cliente está acessando o que chamamos de endpoints, o cliente faz a requisição e acessa o endpoint que é uma rota e dentro dessa rota é executada uma função e responde o meu cliente
     const devList = ["BackEnd", "FrontEnd", "FullStack"];
     const analyticsList = ["Engenharia de Dados", "Ciência de dados"];
